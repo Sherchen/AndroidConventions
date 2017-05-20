@@ -104,7 +104,7 @@ sourceSets {
 ## 3. Android资源命名规范
 ### 3.1 文件命名
 ####    3.1.1 layout命名    
-layout的一般命名规则是<what>_<where>_<desc>，比如下面
+layout的一般命名规则是[what]_[where]_[desc]，比如下面
 
 | Component 组件  | Class Name             | Layout Name                   |
 | ---------------- | ---------------------- | ----------------------------- |
@@ -152,13 +152,13 @@ layout的一般命名规则是<what>_<where>_<desc>，比如下面
 | Selected     | `_selected`     | `btn_order_selected.9.png`  |
 
 #### 3.1.3 其他文件命名
-- menu 因为menu文件较少，而且都在一个menu目录下面，所以一般命名就是<what>.xml，比如home.xml
+- menu 因为menu文件较少，而且都在一个menu目录下面，所以一般命名就是[what].xml，比如home.xml
 - anim 直接命名，比如: fade_in.xml
 - values 目录下面的文件,使用复数形式,比如: arrays.xml, attrs.xml, colors.xml, configs.xml, dimens.xml, strings.xml, styles.xml
 
 ### 3.2 文件下面的name 命名
 #### 3.2.1 layout ID命名
-一般规则：<what>_<where>_<desc>, 比如android:id="tv_home_display",这里的what,一般使用控件单词的缩写，参考[5 附录](#5-附录)
+一般规则：[what]_[where]_[desc], 比如android:id="tv_home_display",这里的what,一般使用控件单词的缩写，参考[5 附录](#5-附录)
 
 #### 3.2.2 color 命名
 直接定义颜色值，比如
@@ -171,7 +171,7 @@ layout的一般命名规则是<what>_<where>_<desc>，比如下面
 <color name="black"     >#323232</color>
 ```
 #### 3.2.3 dimen命名
-一般规则: <what>_<where>_<size>，如果不需要特殊定义这个dimen在哪个模块使用，<where>可以省略，比如
+一般规则: [what]_[where]_[size]，如果不需要特殊定义这个dimen在哪个模块使用，[where]可以省略，比如
 
 
 ```
@@ -187,7 +187,7 @@ layout的一般命名规则是<what>_<where>_<desc>，比如下面
 ```
 
 #### 3.2.4 string命名
-一般规则: <where>_<desc>，比如
+一般规则: [where]_[desc]，比如
 
 ```
 <!--通用模块-->
@@ -201,7 +201,7 @@ layout的一般命名规则是<what>_<where>_<desc>，比如下面
 <string name="home_tab_nearby">附近</string>
 ```
 #### 3.2.5 style命名
-一般规则：<what>.<Desc>,比如
+一般规则：[what].[Desc],比如
 
 ```
 <style name="ImageView"></style>
