@@ -77,7 +77,7 @@ android {
 包括java层和android res层
 ### 2.1 Java层结构
 我采用的是package by feature(PBF)分层方式，[你可以PBF的介绍](https://hackernoon.com/package-by-features-not-layers-2d076df1964d)
-![image](这里少张图)
+![image](https://github.com/Sherchen/AndroidConventions/blob/master/avatar/PBF.png)
 
 ### 2.2 android res层结构
 为了方便阅读和模块化开发的团队分工，我把android res目录按照模块拆分成几个，使用代码如下
@@ -97,7 +97,7 @@ sourceSets {
 }
 ```
 拆分后的android res 视图如下
-![image](这里少张图)
+![image](https://github.com/Sherchen/AndroidConventions/blob/master/avatar/android-res.png)
 
 ## 3. Android资源命名规范
 ### 3.1 文件命名
@@ -419,7 +419,7 @@ try {
 [android-guidelines][android-guidelines]
 
 
-                ——powered by Blankj
+                ——powered by Sherchen
 
 [Package by features, not layers]: https://hackernoon.com/package-by-features-not-layers-2d076df1964d
 [google-code-style]: https://source.android.com/source/code-style
