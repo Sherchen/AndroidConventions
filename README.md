@@ -1,9 +1,3 @@
-# AndroidConventions
-The project is used to standardize naming and template.代码规范，包分层，资源分层，学习AS入门。
-
-## 目录
-[toc]
-
 ## 1. AS规范
 ### 1.1 CopyRight
 在Settings/Editor/CopyRight里添加一份，内容你可以在github上找一份，改下，这样每次新增文件，IDE都会自动加上CopyRight.
